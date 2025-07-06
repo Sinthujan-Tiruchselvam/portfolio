@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sinthujan Tiruchselvam | Freelancer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      padding: 120px 20px 80px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 3.8rem;
+      margin-bottom: 10px;
+      animation: fadeInDown 1s ease-out;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+    header p {
+      font-size: 1.6rem;
+      color: #ffe082;
+      font-weight: 500;
+      animation: fadeInUp 1.2s ease-out;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+      animation: fadeIn 2s ease-in;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff59d;
+      font-weight: 600;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      color: #2e7d32;
+      margin-bottom: 30px;
+    }
+    .services, .experience, .portfolio, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #ffffffee;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+    input, textarea {
+      padding: 12px;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+    }
+    button {
+      padding: 12px;
+      border: none;
+      background-color: #2e7d32;
+      color: white;
+      font-weight: 600;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #1b5e20;
+    }
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      background: #2e7d32;
+      color: #eee;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sinthujan Tiruchselvam</h1>
+    <p>Helping Brands Grow Through Smart Sales & Marketing</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#testimonials">What You Can Expect</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a results-driven freelance professional with expertise in hospitality, sales, reservations, marketing, and content creation. My mission is to help businesses increase their visibility, grow their customer base, and enhance customer experience through effective communication and strategy.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <div class="services">
+      <div class="card">Sales & Reservation Consulting</div>
+      <div class="card">Social Media Management</div>
+      <div class="card">Content Creation</div>
+      <div class="card">Customer Service Support</div>
+      <div class="card">Marketing Strategy & Brand Growth</div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="card">
+        <h3>Karpaha Sands</h3>
+        <p>Sales & Reservation Manager (2021–Present)</p>
+        <p>Handled high-end guest relations, improved SOPs, and managed social media promotions.</p>
+      </div>
+      <div class="card">
+        <h3>Sampath Bank</h3>
+        <p>Customer Relationship Officer (2019–2021)</p>
+        <p>Provided financial services and trained new staff in CRM and service communication.</p>
+      </div>
+      <div class="card">
+        <h3>HNB Bank</h3>
+        <p>Life Insurance Advisor (2015–2016)</p>
+        <p>Advised clients on life insurance policies and supported product awareness campaigns.</p>
+      </div>
+      <div class="card">
+        <h3>DFCC Bank</h3>
+        <p>Business Development Officer (2016–2018)</p>
+        <p>Promoted banking solutions to SMEs and supported client onboarding and outreach.</p>
+      </div>
+      <div class="card">
+        <h3>Central Finance</h3>
+        <p>Sales Manager (2018–2019)</p>
+        <p>Led sales team operations, loan promotions, and customer acquisition strategies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="portfolio">
+      <div class="card">
+        <h3>Increasing Direct Bookings – Karpaha Sands</h3>
+        <p>Redesigned the reservation process and follow-up communication, leading to a noticeable improvement in confirmed direct bookings.</p>
+      </div>
+      <div class="card">
+        <h3>Customer Experience Enhancement – Sampath Bank</h3>
+        <p>Trained junior staff and introduced new CRM workflows to improve service delivery and cross-selling success rates.</p>
+      </div>
+      <div class="card">
+        <h3>Sales Campaign Management – CEYRAL Finance</h3>
+        <p>Led regional sales teams with monthly performance goals, increasing loan product conversions through promotions and client outreach.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media Strategy – Freelance Project</h3>
+        <p>Managed content calendars and built consistent branding that grew organic reach across platforms for multiple local businesses.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What You Can Expect</h2>
+    <div class="testimonials">
+      <div class="card">
+        <p>Dedicated service with a focus on increasing your sales and brand visibility.</p>
+      </div>
+      <div class="card">
+        <p>Clear communication, timely delivery, and measurable results.</p>
+      </div>
+      <div class="card">
+        <p>Creative strategies tailored to your unique business needs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="mailto:sinthujantirichselvam@gmail.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Sinthujan Tiruchselvam | Email: sinthujantirichselvam@gmail.com</p>
+  </footer>
+</body>
+</html>
